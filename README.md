@@ -86,7 +86,9 @@ NAIP has historically been for the Continental United States only, however start
 
 ### Sentinel-1
 
-The Sentinel-1 data is the Ground-Range Detected amplitude-only data.
+The Sentinel-1 data is the Ground-Range Detected amplitude-only data. Sentinel-1 is not distributed in tiles, instead
+images can vary substantially in coverage and size. The original footprints of the scenes were found to not be very
+accurate, so as part of the indexing process for Earth Search, new footprints are generated.
 
 ### Sentinel-2
 

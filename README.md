@@ -6,7 +6,7 @@ available on the [AWS Registry of Open Data](https://aws.amazon.com/earth/) (ROD
 
 This public API does not come with any guaranteed service. If you are using Earth Search in production
 and are interested in a private data catalog that can incorporate both public and private data sources,
-please reach out. Earth Search is powered by [FilmDrop](https://element84.com/filmdrop), a collection of
+[please reach out](https://www.element84.com/work-with-us). Earth Search is powered by [FilmDrop](https://element84.com/filmdrop), a collection of
 open-source applications and libraries for geospatial data ingest and cataloging supported by [Element 84](https://element84.com).
 
 To stay up to date with any new changes or datasets to the Earth Search API, please sign up for the [mailing list](http://eepurl.com/irrwDo).

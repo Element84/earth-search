@@ -10,6 +10,7 @@ and are interested in a private data catalog that can incorporate both public an
 open-source applications and libraries for geospatial data ingest and cataloging supported by [Element 84](https://element84.com).
 
 To stay up to date with any new changes or datasets to the Earth Search API, please sign up for the [mailing list](http://eepurl.com/irrwDo).
+For a detailed writeup about the Earth Search v1 and the changes from v0, see [this blog post](https://www.element84.com/geospatial/introducing-earth-search-v1-new-datasets-now-available/).
 
 ## General Notes
 
@@ -51,7 +52,7 @@ Some Collections do have missing Items due to several issues and these are being
 
 ### Copernicus DEM
 
-The Copernicus DEM data is available in two different Collections with the only difference being the 
+The Copernicus DEM data is available in two different Collections with the only difference being the
 resolution: 30 meter vs 90 meter.
 
 ### Landsat Collection 2

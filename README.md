@@ -9,7 +9,8 @@ and are interested in a private data catalog that can incorporate both public an
 [please reach out](https://www.element84.com/work-with-us). Earth Search is powered by [FilmDrop](https://element84.com/filmdrop), a collection of
 open-source applications and libraries for geospatial data ingest and cataloging supported by [Element 84](https://element84.com).
 
-To stay up to date with any new changes or datasets to the Earth Search API, please sign up for the [mailing list](http://eepurl.com/irrwDo).
+To stay up to date with any new changes or datasets to the Earth Search API, please sign up for the [mailing list](http://eepurl.com/irrwDo), you can
+also review [the mailing list archive](https://us13.campaign-archive.com/home/?u=a7a7fcb1ce46c4d001fc76289&id=38266ef009).
 For a detailed writeup about the Earth Search v1 and the changes from v0, see [this blog post](https://www.element84.com/geospatial/introducing-earth-search-v1-new-datasets-now-available/).
 
 ## General Notes

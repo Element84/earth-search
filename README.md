@@ -166,7 +166,7 @@ Resources:
 ### Sentinel-2 Collection 1 Level-2A S3 Data
 
 As part of Earth Search, Cloud-optimized GeoTIFFs (COGs) are generated for the
-Sentinel-2 Collection 1 Level-2A dataset from the ESA/Singergize JPEG 2000 files.
+Sentinel-2 Collection 1 Level-2A dataset from the ESA/Sinergise JPEG 2000 files.
 These are referenced in the
 Earth Search API Collection `sentinel-2-c1-l2a`. This data is stored in the
 S3 Bucket `e84-earth-search-sentinel-data` and an S3 Inventory is generated into

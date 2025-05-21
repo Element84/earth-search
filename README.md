@@ -5,6 +5,7 @@
   - [s3 vs http URLs](#s3-vs-http-urls)
   - [SNS Notifications of Items](#sns-notifications-of-items)
   - [Sentinel-2 Collection 1 Level-2A S3 Data](#sentinel-2-collection-1-level-2a-s3-data)
+    - [Inventory Report](#inventory-report)
 - [Collections](#collections)
   - [Copernicus DEM (cop-dem-glo-30 and cop-dem-glo-90)](#copernicus-dem-cop-dem-glo-30-and-cop-dem-glo-90)
   - [Landsat Collection 2 Level-2 (landsat-c2-l2)](#landsat-collection-2-level-2-landsat-c2-l2)
@@ -169,8 +170,11 @@ As part of Earth Search, Cloud-optimized GeoTIFFs (COGs) are generated for the
 Sentinel-2 Collection 1 Level-2A dataset from the ESA/Sinergise JPEG 2000 files.
 These are referenced in the
 Earth Search API Collection `sentinel-2-c1-l2a`. This data is stored in the
-S3 Bucket `e84-earth-search-sentinel-data` and an S3 Inventory is generated into
-S3 Bucket `e84-earth-search-sentinel-data-inventory`.
+S3 Bucket `e84-earth-search-sentinel-data`.
+
+#### Inventory Report
+
+[S3 inventory reports](https://docs.aws.amazon.com/AmazonS3/latest/userguide/storage-inventory.html) are generated for the `e84-earth-search-sentinel-data` bucket and stored in the `e84-earth-search-sentinel-data-inventory` bucket. Inventory reports are generated daily and stored as parquet files, under the `primary` configuration name, e.g. `s3://e84-earth-search-sentinel-data-inventory/e84-earth-search-sentinel-data/primary/`
 
 ## Collections
 

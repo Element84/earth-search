@@ -174,7 +174,11 @@ S3 Bucket `e84-earth-search-sentinel-data`.
 
 #### Inventory Report
 
-[S3 inventory reports](https://docs.aws.amazon.com/AmazonS3/latest/userguide/storage-inventory.html) are generated for the `e84-earth-search-sentinel-data` bucket and stored in the `e84-earth-search-sentinel-data-inventory` bucket. Inventory reports are generated daily and stored as parquet files, under the `primary` configuration name, e.g. `s3://e84-earth-search-sentinel-data-inventory/e84-earth-search-sentinel-data/primary/`
+[S3 inventory reports](https://docs.aws.amazon.com/AmazonS3/latest/userguide/storage-inventory.html)
+are generated for the `e84-earth-search-sentinel-data` bucket and stored in the
+`e84-earth-search-sentinel-data-inventory` bucket. Inventory reports are generated daily
+and stored as parquet files, under the `primary` configuration name,
+e.g. `s3://e84-earth-search-sentinel-data-inventory/e84-earth-search-sentinel-data/primary/`
 
 ## Collections
 

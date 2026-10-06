@@ -4,7 +4,8 @@
   - v2 (beta): [`sentinel-2-l2a`](https://earth-search.aws.element84.com/v2/collections/sentinel-2-l2a)
   - v1: [`sentinel-2-l2a`](https://earth-search.aws.element84.com/v1/collections/sentinel-2-l2a)
   - v1: [`sentinel-2-c1-l2a`](https://earth-search.aws.element84.com/v1/collections/sentinel-2-c1-l2a)
-- Public dataset: [Sentinel-2](https://registry.opendata.aws/sentinel-2/) and [Sentinel-2 COGS](https://registry.opendata.aws/sentinel-2-l2a-cogs/) (`sentinel-2-c1-l2a`: tbd)
+- Public dataset: [Sentinel-2](https://registry.opendata.aws/sentinel-2/) and
+  [Sentinel-2 COGS](https://registry.opendata.aws/sentinel-2-l2a-cogs/) (`sentinel-2-c1-l2a`: tbd)
 - stactools package: [sentinel2](https://github.com/stactools-packages/sentinel2)
 - Number of Items: ~26.2 million (v2 `sentinel-2-l2a`), ~51.6 million (v1 `sentinel-2-l2a`), ~30.6 million (v1 `sentinel-2-c1-l2a`)
 
@@ -14,6 +15,8 @@ assets for the Cloud-Optimized GeoTIFF (COG) versions. See also [`sentinel-2-l1c
 
 ## v1 vs v2
 
+<!-- lint ignore no-undefined-references -->
+
 > [!NOTE]
 > Earth Search v2 is currently in beta and may change before general release.
 
@@ -21,11 +24,11 @@ Earth Search v1 has two Sentinel-2 L2A collections: `sentinel-2-l2a` and `sentin
 In Earth Search v2, the Collection 1 data is provided in `sentinel-2-l2a`, and `sentinel-2-c1-l2a` no longer exists.
 The Item ID is unchanged between `sentinel-2-c1-l2a` in v1 and `sentinel-2-l2a` in v2.
 
-| Earth Search | Collection          | Content                                                              |
-| ------------ | ------------------- | -------------------------------------------------------------------- |
-| v1           | `sentinel-2-l2a`    | Original JPEG 2000 and COG assets, all processing baselines          |
-| v1           | `sentinel-2-c1-l2a` | COGs processed to at least baseline 5.0 (Collection 1)               |
-| v2 (beta)    | `sentinel-2-l2a`    | Replaces v1 `sentinel-2-c1-l2a`                                      |
+| Earth Search | Collection          | Content                                                     |
+| ------------ | ------------------- | ----------------------------------------------------------- |
+| v1           | `sentinel-2-l2a`    | Original JPEG 2000 and COG assets, all processing baselines |
+| v1           | `sentinel-2-c1-l2a` | COGs processed to at least baseline 5.0 (Collection 1)      |
+| v2 (beta)    | `sentinel-2-l2a`    | Replaces v1 `sentinel-2-c1-l2a`                             |
 
 ### Changes from v1 `sentinel-2-c1-l2a` to v2 `sentinel-2-l2a`
 
